@@ -35,6 +35,18 @@ import (
 
 	"github.com/mholt/caddy/caddytls"
 	// This is where other plugins get plugged in (imported)
+	_ "github.com/jung-kurt/caddy-cgi"
+	_ "github.com/nicolasazrak/caddy-cache"
+	_ "github.com/captncraig/cors"
+	_ "github.com/hacdias/filemanager/caddy/filemanager"
+	_ "github.com/hacdias/filemanager/caddy/hugo"
+	_ "github.com/hacdias/filemanager/caddy/jekyll"
+	_ "github.com/echocat/caddy-filter"
+	_ "github.com/abiosoft/caddy-git"
+	_ "github.com/pyed/ipfilter"
+	_ "github.com/BTBurke/caddy-jwt"
+	_ "github.com/tarent/loginsrv/tree/master/caddy"
+	_ "github.com/hacdias/caddy-webdav"
 )
 
 func init() {

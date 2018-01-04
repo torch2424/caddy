@@ -1,3 +1,7 @@
+Plugins in this fork can be found at: [caddy/caddymain/run.go](https://github.com/torch2424/caddy/blob/master/caddy/caddymain/run.go)
+
+---
+
 <p align="center">
 	<a href="https://caddyserver.com"><img src="https://cloud.githubusercontent.com/assets/1128849/25305033/12916fce-2731-11e7-86ec-580d4d31cb16.png" alt="Caddy" width="400"></a>
 </p>
